@@ -1,0 +1,63 @@
+.header-topic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    
+    height: 90px;
+    
+    background: #9D4EDD;
+    border-radius: 8px;
+
+    margin-bottom: 24px;
+
+    &__btn-go-back {
+        margin-right: 16px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        /* identical to box height, or 141% */
+
+        letter-spacing: -0.4px;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        flex-grow: 1;
+    }
+
+    &__btn-action {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 24px;
+        gap: 10px;
+
+        width: 94px;
+        height: 42px;
+
+        background: #FFFFFF;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+
+        flex: none;
+        flex-grow: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+
+        letter-spacing: 1.25px;
+
+        color: #9D4EDD;
+    }
+}

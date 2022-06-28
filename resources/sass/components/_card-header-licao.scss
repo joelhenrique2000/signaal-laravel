@@ -1,0 +1,48 @@
+.card-header-licao {
+    display: flex;
+    background-color: #F6F6F6;
+    padding: 16px;
+    border-radius: 8px;
+    min-height: 112px;
+    margin-bottom: 16px;
+    border: 1px solid #EAEAEA;
+
+
+    align-items: flex-start;
+    flex-direction: column;
+
+    @media (min-width:576px) {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    &__icon {
+        height: 80px;
+        width: 80px;
+        background-color: #FF9100;
+        border-radius: 8px;
+        flex: none;
+        margin-bottom: 16px;
+        
+        @media (min-width:576px) {
+            margin-bottom: 0px;
+            margin-right: 16px;
+        }
+    }
+
+    &__content {
+
+        h1 {
+            color: #3C3C3C;
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: -0.4px;
+            line-height: 32px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #737373;
+        }
+    }
+}

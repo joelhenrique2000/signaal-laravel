@@ -1,0 +1,75 @@
+
+.group-radiogroup-exercicio {
+    $branco: #fff;
+    $border-active-color: #8484FF; //#84d8ff;
+    $border--no-active-color: #e5e5e5;
+    $text-color: #1818D6; //#1899d6;
+    $background-color: #DDDDFF; //#ddf4ff;
+
+    &__item {
+        border: solid transparent;
+        border-radius: 12px;
+        border-width: 2px 2px 4px;
+        cursor: pointer;
+        display: inline-flex;
+        outline: 0;
+        position: relative;
+        user-select: none;
+        align-items: center;
+        color: #4b4b4b;
+        display: flex;
+        font-size: 19px;
+        line-height: 1.4;
+        padding: 12px 16px;
+
+        background-color: $branco;
+        border: 2px solid $border--no-active-color;
+        border-radius: 12px;
+        bottom: -2px;
+        box-shadow: 0 2px 0 $border--no-active-color;
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+
+        &:active {
+            color: $text-color;
+
+            border: 2px solid $border-active-color;
+            border-radius: 12px;
+            bottom: -2px;
+            box-shadow: 0 2px 0 $border-active-color;
+            background-color: $background-color;
+            transform: translateY(2px) translateZ(0);
+            box-shadow: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &[aria-checked="true"] {
+            color: $text-color;
+
+            border: 2px solid $border-active-color;
+            border-radius: 12px;
+            bottom: -2px;
+            box-shadow: 0 2px 0 $border-active-color;
+            background-color: $background-color;
+
+            &:active {
+                box-shadow: none;
+            }
+
+        }
+
+        &:focus,
+        &.focus,
+        &:hover {
+            &[aria-checked="true"] {
+                background-color: $background-color;
+            }
+
+        }
+    }
+}

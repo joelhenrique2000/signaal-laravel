@@ -1,0 +1,82 @@
+// @import 'abstracts/variables';
+// @import 'abstracts/mixins';
+@import
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins',
+    'abstracts/placeholders';
+
+@import 'vendors/rfs';
+
+@import
+    'base/reset';
+@import
+    'base/typography';
+
+// @import 'layout/navigation';
+// @import 'layout/grid';
+@import
+    'layout/card-aside';
+@import
+    'layout/form-auth-lateral',
+    'layout/header',
+    'layout/presentation-auth-lateral';
+// @import 'layout/footer';
+// @import 'layout/sidebar';
+// @import 'layout/forms';
+
+// @import 'components/buttons';
+@import
+    'components/badge-status',
+    'components/button',
+    'components/card-column',
+    'components/card-header-licao',
+    'components/card-licao',
+    'components/card-seu-progresso',
+    'components/card-seus-amigos',
+    'components/exercicio-content',
+    'components/exercicio-player-footer',
+    'components/figure-body',
+    'components/group-radiogroup-exercicio',
+    'components/header-topic',
+    'components/input',
+    'components/menu-profile',
+    'components/profile-header',
+    'components/profile-section',
+    'components/progress-licao',
+    'components/progress-exercicio',
+    'components/progress';
+// @import 'components/cover';
+// @import 'components/dropdown';
+
+@import
+    'pages/entrar',
+    'pages/exercicio-main',
+    'pages/home',
+    'pages/registrar';
+// @import 'pages/contact';
+
+// @import 'themes/theme';
+// @import 'themes/admin';
+
+@import
+    'utils/variables',
+    'utils/functions',
+    'utils/mixins',
+    'utils/helpers';
+
+@media (min-width:576px) {
+
+}
+@media (min-width:768px) {
+
+}
+@media (min-width:992px) {
+
+}
+@media (min-width:1200px) {
+
+}
+@media (min-width:1400px) {
+
+}

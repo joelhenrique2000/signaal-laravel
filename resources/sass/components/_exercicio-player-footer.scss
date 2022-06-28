@@ -1,0 +1,48 @@
+.exercicio-player-footer {
+    border-top: 2px solid #e5e5e5;
+    // border-top: 2px solid transparent;
+    // background-color: rgba(255, 0, 0, 0.13);
+    width: 100%;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+
+    &--correct {
+        border-top: 2px solid transparent;
+        background-color: #d7ffb8;
+        color: #58a700;
+    }
+
+    &--incorrect {
+        border-top: 2px solid transparent;
+        background-color: #ffdfe0;
+        color: #ea2b2b;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__item-status {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 24px;
+        flex-grow: 1;
+
+        .badge-status {
+            margin-right: 16px;
+        }
+    }
+
+    &__text-status {
+        font-weight: bold;
+    }
+
+    &__item-action {
+    }
+}

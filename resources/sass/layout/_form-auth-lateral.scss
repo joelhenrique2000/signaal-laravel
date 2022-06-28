@@ -1,0 +1,54 @@
+.form-auth-lateral {
+    a {
+        line-height: 21px;
+        letter-spacing: 0.15px;
+        color: #146850;
+        text-decoration: none;
+    }
+
+    &__logo-container {
+        max-width: 416px;
+        display: flex;
+
+        @media (min-width:1200px) {
+            display: none;
+        }
+    }
+
+    &__logo {
+        margin-bottom: 24px;
+        cursor: pointer;
+    }
+
+    &__title {
+        color: #344055;
+        font-weight: bold;
+        line-height: 56px;
+        letter-spacing: 0.15px;
+        margin-bottom: 8px;
+    }
+
+    &__signup-helper {
+        color: #949494;
+        font-weight: bold;
+        line-height: 21px;
+        letter-spacing: 0.15px;
+        margin-bottom: 32px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+
+        &:not(:last-child) {
+            padding-bottom: 24px;
+        }
+    }
+
+    &__label {
+        margin-bottom: 16px;
+        color: #707E98;
+        font-weight: bold;
+        display: inline-block;
+    }
+}
